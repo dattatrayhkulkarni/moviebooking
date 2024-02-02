@@ -9,26 +9,26 @@ CREATE TABLE `user` (
 ALTER TABLE user MODIFY COLUMN user_id INT auto_increment;
 
 
-CREATE TABLE `cinema_hall` (
-  `cinema_hall_id` int ,
-  `cinema_hall_name` varchar(50) DEFAULT NULL,
+CREATE TABLE `theatre` (
+  `theatre_id` int ,
+  `theatre_name` varchar(50) DEFAULT NULL,
   `address` varchar(50) DEFAULT NULL,
   `city` varchar(50) DEFAULT NULL,
-  PRIMARY KEY(cinema_hall_id)
+  PRIMARY KEY(theatre_id)
 );
 
-ALTER TABLE cinema_hall MODIFY COLUMN cinema_hall_id INT auto_increment;
+ALTER TABLE theatre MODIFY COLUMN theatre_id INT auto_increment;
 
 
-CREATE TABLE `cinema_hall_screens` (
-  `cinema_hall_id` int ,
-  `cinema_hall_screen_name` varchar(50),
-  PRIMARY KEY(cinema_hall_id, cinema_hall_screen_name)
+CREATE TABLE `theatre_screens` (
+  `theatre_id` int ,
+  `theatre_screen_name` varchar(50),
+  PRIMARY KEY(theatre_id, theatre_screen_name)
 );
 
 CREATE TABLE `current_movies` (
   `current_movie_id` int ,
-  `cinema_hall_id` int,
+  `theatre_id` int,
   `start_date` date,
   `show_timing` varchar(50),
   `current_movie_name` varchar(100),
