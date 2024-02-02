@@ -1,0 +1,108 @@
+2024-02-02T20:38:20.968+05:30  INFO 8267 --- [main] plicationForMovieBookingApplicationTests : Starting ApplicationForMovieBookingApplicationTests using Java 21.0.1 with PID 8267 (started by dkulkarni in /Users/dkulkarni/training/java/moviebooking/Application-for-Movie-Booking)
+2024-02-02T20:38:20.969+05:30  INFO 8267 --- [main] plicationForMovieBookingApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-02-02T20:38:21.236+05:30  INFO 8267 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-02T20:38:21.245+05:30  INFO 8267 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2024-02-02T20:38:21.440+05:30  INFO 8267 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-02T20:38:21.632+05:30  INFO 8267 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ba90d8a
+2024-02-02T20:38:21.632+05:30  INFO 8267 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-02T20:38:21.673+05:30  INFO 8267 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-02T20:38:21.695+05:30  INFO 8267 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-02T20:38:21.708+05:30  INFO 8267 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-02T20:38:21.799+05:30  INFO 8267 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-02T20:38:21.976+05:30  INFO 8267 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-02T20:38:21.978+05:30  INFO 8267 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02T20:38:22.059+05:30  WARN 8267 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-02T20:38:22.262+05:30  INFO 8267 --- [main] plicationForMovieBookingApplicationTests : Started ApplicationForMovieBookingApplicationTests in 1.434 seconds (process running for 1.851)
+2024-02-02T20:38:22.656+05:30  INFO 8267 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02T20:38:22.658+05:30  INFO 8267 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-02T20:38:22.663+05:30  INFO 8267 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-02T20:47:17.568+05:30  INFO 8417 --- [main] plicationForMovieBookingApplicationTests : Starting ApplicationForMovieBookingApplicationTests using Java 21.0.1 with PID 8417 (started by dkulkarni in /Users/dkulkarni/training/java/moviebooking/Application-for-Movie-Booking)
+2024-02-02T20:47:17.569+05:30  INFO 8417 --- [main] plicationForMovieBookingApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-02-02T20:47:17.840+05:30  INFO 8417 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-02T20:47:17.848+05:30  INFO 8417 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2024-02-02T20:47:18.032+05:30  INFO 8417 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-02T20:47:18.241+05:30  INFO 8417 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25b38203
+2024-02-02T20:47:18.242+05:30  INFO 8417 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-02T20:47:18.280+05:30  INFO 8417 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-02T20:47:18.304+05:30  INFO 8417 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-02T20:47:18.315+05:30  INFO 8417 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-02T20:47:18.407+05:30  INFO 8417 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-02T20:47:18.585+05:30  INFO 8417 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-02T20:47:18.589+05:30  INFO 8417 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02T20:47:18.670+05:30  WARN 8417 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-02T20:47:18.860+05:30  INFO 8417 --- [main] plicationForMovieBookingApplicationTests : Started ApplicationForMovieBookingApplicationTests in 1.425 seconds (process running for 1.857)
+2024-02-02T20:47:19.275+05:30  INFO 8417 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02T20:47:19.276+05:30  INFO 8417 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-02T20:47:19.280+05:30  INFO 8417 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-02T20:47:40.958+05:30  INFO 8439 --- [main] .d.ApplicationForMovieBookingApplication : Starting ApplicationForMovieBookingApplication v0.0.1-SNAPSHOT using Java 21.0.1 with PID 8439 (/Users/dkulkarni/training/java/moviebooking/Application-for-Movie-Booking/target/Application-for-Movie-Booking-0.0.1-SNAPSHOT.jar started by dkulkarni in /Users/dkulkarni/training/java/moviebooking/Application-for-Movie-Booking)
+2024-02-02T20:47:40.959+05:30  INFO 8439 --- [main] .d.ApplicationForMovieBookingApplication : No active profile set, falling back to 1 default profile: "default"
+2024-02-02T20:47:41.342+05:30  INFO 8439 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-02T20:47:41.359+05:30  INFO 8439 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2024-02-02T20:47:41.637+05:30  INFO 8439 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-02T20:47:41.644+05:30  INFO 8439 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-02T20:47:41.644+05:30  INFO 8439 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-02T20:47:41.661+05:30  INFO 8439 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-02T20:47:41.661+05:30  INFO 8439 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 648 ms
+2024-02-02T20:47:41.731+05:30  INFO 8439 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-02T20:47:41.966+05:30  INFO 8439 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69de5bed
+2024-02-02T20:47:41.967+05:30  INFO 8439 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-02T20:47:41.991+05:30  INFO 8439 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-02T20:47:42.016+05:30  INFO 8439 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-02T20:47:42.030+05:30  INFO 8439 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-02T20:47:42.136+05:30  INFO 8439 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-02T20:47:42.340+05:30  INFO 8439 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-02T20:47:42.343+05:30  INFO 8439 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02T20:47:42.370+05:30  WARN 8439 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-02T20:47:42.576+05:30  INFO 8439 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-02T20:47:42.585+05:30  INFO 8439 --- [main] .d.ApplicationForMovieBookingApplication : Started ApplicationForMovieBookingApplication in 1.909 seconds (process running for 2.195)
+2024-02-02T20:48:01.081+05:30  INFO 8439 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-02T20:48:01.081+05:30  INFO 8439 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-02T20:48:01.082+05:30  INFO 8439 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-02T20:48:33.574+05:30  INFO 8439 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02T20:48:33.576+05:30  INFO 8439 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-02T20:48:33.581+05:30  INFO 8439 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-02T20:52:21.114+05:30  INFO 8548 --- [main] plicationForMovieBookingApplicationTests : Starting ApplicationForMovieBookingApplicationTests using Java 21.0.1 with PID 8548 (started by dkulkarni in /Users/dkulkarni/training/java/moviebooking/moviebooking/Application-for-Movie-Booking)
+2024-02-02T20:52:21.115+05:30  INFO 8548 --- [main] plicationForMovieBookingApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-02-02T20:52:21.382+05:30  INFO 8548 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-02T20:52:21.392+05:30  INFO 8548 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2024-02-02T20:52:21.590+05:30  INFO 8548 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-02T20:52:21.778+05:30  INFO 8548 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77724cbe
+2024-02-02T20:52:21.779+05:30  INFO 8548 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-02T20:52:21.816+05:30  INFO 8548 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-02T20:52:21.840+05:30  INFO 8548 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-02T20:52:21.852+05:30  INFO 8548 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-02T20:52:21.948+05:30  INFO 8548 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-02T20:52:22.125+05:30  INFO 8548 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-02T20:52:22.130+05:30  INFO 8548 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02T20:52:22.209+05:30  WARN 8548 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-02T20:52:22.420+05:30  INFO 8548 --- [main] plicationForMovieBookingApplicationTests : Started ApplicationForMovieBookingApplicationTests in 1.446 seconds (process running for 1.864)
+2024-02-02T20:52:22.812+05:30  INFO 8548 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02T20:52:22.813+05:30  INFO 8548 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-02T20:52:22.818+05:30  INFO 8548 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-02T20:52:39.876+05:30  INFO 8560 --- [main] .d.ApplicationForMovieBookingApplication : Starting ApplicationForMovieBookingApplication v0.0.1-SNAPSHOT using Java 21.0.1 with PID 8560 (/Users/dkulkarni/training/java/moviebooking/moviebooking/Application-for-Movie-Booking/target/Application-for-Movie-Booking-0.0.1-SNAPSHOT.jar started by dkulkarni in /Users/dkulkarni/training/java/moviebooking/moviebooking/Application-for-Movie-Booking)
+2024-02-02T20:52:39.877+05:30  INFO 8560 --- [main] .d.ApplicationForMovieBookingApplication : No active profile set, falling back to 1 default profile: "default"
+2024-02-02T20:52:40.263+05:30  INFO 8560 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-02T20:52:40.280+05:30  INFO 8560 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2024-02-02T20:52:40.552+05:30  INFO 8560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-02T20:52:40.559+05:30  INFO 8560 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-02T20:52:40.559+05:30  INFO 8560 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-02T20:52:40.575+05:30  INFO 8560 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-02T20:52:40.576+05:30  INFO 8560 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 654 ms
+2024-02-02T20:52:40.648+05:30  INFO 8560 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-02T20:52:40.879+05:30  INFO 8560 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@603cabc4
+2024-02-02T20:52:40.880+05:30  INFO 8560 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-02T20:52:40.903+05:30  INFO 8560 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-02T20:52:40.927+05:30  INFO 8560 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-02T20:52:40.941+05:30  INFO 8560 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-02T20:52:41.052+05:30  INFO 8560 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-02T20:52:41.242+05:30  INFO 8560 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-02T20:52:41.245+05:30  INFO 8560 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02T20:52:41.271+05:30  WARN 8560 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-02T20:52:41.474+05:30  INFO 8560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-02T20:52:41.484+05:30  INFO 8560 --- [main] .d.ApplicationForMovieBookingApplication : Started ApplicationForMovieBookingApplication in 1.898 seconds (process running for 2.178)
+2024-02-02T20:52:45.555+05:30  INFO 8560 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-02T20:52:45.555+05:30  INFO 8560 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-02T20:52:45.556+05:30  INFO 8560 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-02T20:53:06.901+05:30  INFO 8560 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02T20:53:06.904+05:30  INFO 8560 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-02T20:53:06.909+05:30  INFO 8560 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
