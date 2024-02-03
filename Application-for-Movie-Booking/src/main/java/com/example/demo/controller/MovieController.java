@@ -24,7 +24,6 @@ public class MovieController {
 
     @RequestMapping(value="/theatre", method=RequestMethod.GET)
     public List<Theatre> readTheatres() {
-    //public String readTheatres() {
         logger.info("Inside read Theatres");
 
         return theatreServiceService.getTheatres();

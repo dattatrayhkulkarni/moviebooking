@@ -48,7 +48,7 @@ CREATE TABLE `ticket_inventory` (
 );
 
 CREATE TABLE `booking` (
-  `booking_id`  varchar(50),
+  `booking_id`  BIGINT,
   `user_id`  int,
   `current_movie_id`  int,
   `total_seats` int,
