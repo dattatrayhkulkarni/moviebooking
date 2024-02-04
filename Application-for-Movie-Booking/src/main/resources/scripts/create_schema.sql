@@ -59,10 +59,13 @@ CREATE TABLE `booking` (
 ALTER TABLE booking MODIFY COLUMN booking_id INT auto_increment;
 
 CREATE TABLE `booking_seats` (
+   `booking_seat_id`  BIGINT,
   `booking_id`  varchar(50),
   `seat_id` varchar(50),
-  PRIMARY KEY(booking_id, seat_id)
+  PRIMARY KEY(booking_seat_id)
 );
+
+ALTER TABLE booking_seats MODIFY COLUMN booking_seat_id INT auto_increment;
 
 
 

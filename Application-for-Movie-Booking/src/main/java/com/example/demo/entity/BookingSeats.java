@@ -7,45 +7,65 @@ import jakarta.persistence.*;
 @Table(name = "booking_seats")
 public class BookingSeats {
 
-    @Id
-    @Column(name="booking_id", nullable = false)
-    @JsonProperty("booking_id")
-    private long bookingId;
 
     @Id
+    @Column(name="booking_seat_id", nullable = false)
+    @JsonProperty("booking_seat_id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long bookingSeatId;
+
+
     @Column(name="seat_id", nullable = false)
     @JsonProperty("seat_id")
     private String seatId;
 
 
-    @ManyToOne(cascade = CascadeType.ALL)
+    @Column(name="booking_id", nullable = false)
+    @JsonProperty("booking_id")
+    private long bookingId;
+
+
+    /*
+    @ManyToOne
     @JoinColumn(name = "booking_id")
     private Booking booking;
 
 
-    public BookingSeats(long bookingId, String seatId) {
-        this.bookingId = bookingId;
-        this.seatId = seatId;
-    }
-
+     */
 
     public BookingSeats() {
     }
 
 
-    public long getBookingId() {
-        return bookingId;
+    public BookingSeats(long bookingSeatId, String seatId, long bookingId) {
+        this.bookingSeatId = bookingSeatId;
+        this.seatId = seatId;
+        this.bookingId = bookingId;
+    }
+
+
+    public long getBookingSeatId() {
+        return bookingSeatId;
     }
 
     public String getSeatId() {
         return seatId;
     }
 
-    public void setBookingId(long bookingId) {
-        this.bookingId = bookingId;
+    public long getBookingId() {
+        return bookingId;
+    }
+
+
+    public void setBookingSeatId(long bookingSeatId) {
+        this.bookingSeatId = bookingSeatId;
     }
 
     public void setSeatId(String seatId) {
         this.seatId = seatId;
+    }
+
+    public void setBookingId(long bookingId) {
+        this.bookingId = bookingId;
     }
 }

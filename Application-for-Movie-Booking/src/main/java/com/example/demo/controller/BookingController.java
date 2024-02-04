@@ -1,6 +1,7 @@
 package com.example.demo.controller;
 
 import com.example.demo.entity.Booking;
+import com.example.demo.entity.BookingSeats;
 import com.example.demo.entity.Theatre;
 import com.example.demo.service.BookingService;
 import com.example.demo.service.TheatreService;
@@ -12,6 +13,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 
@@ -29,8 +31,13 @@ public class BookingController {
     public Booking createBooking(@RequestBody Booking booking) {
 
         logger.info("Inside createBooking");
+        logger.info("Booking details = " + booking.toString());
 
-        return bookingService.createBooking(booking);
+
+        Booking savedBooking = bookingService.createBooking(booking);
+        
+        return savedBooking;
+
     }
 
 
