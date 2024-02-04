@@ -31,6 +31,8 @@ public class BookingService {
         return bookingRepository.findBookingsByUserId(userId);
     }
 
+
+
     public Booking createBooking(Booking booking) {
 
         //logger.info("----  No of seats = " + booking.getBookingSeatsList().size());

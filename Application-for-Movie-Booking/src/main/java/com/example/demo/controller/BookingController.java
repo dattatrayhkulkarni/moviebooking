@@ -33,13 +33,11 @@ public class BookingController {
         logger.info("Inside createBooking");
         logger.info("Booking details = " + booking.toString());
 
-
         Booking savedBooking = bookingService.createBooking(booking);
-        
+
         return savedBooking;
 
     }
-
 
 
     @RequestMapping(value="/booking/{userId}", method=RequestMethod.GET)
