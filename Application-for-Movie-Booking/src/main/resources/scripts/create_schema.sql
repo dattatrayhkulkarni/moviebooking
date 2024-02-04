@@ -30,6 +30,7 @@ CREATE TABLE `current_movies` (
   `current_movie_id` int ,
   `theatre_id` int,
   `start_date` date,
+  `end_date` date,
   `show_timing` varchar(50),
   `current_movie_name` varchar(100),
   PRIMARY KEY(current_movie_id)

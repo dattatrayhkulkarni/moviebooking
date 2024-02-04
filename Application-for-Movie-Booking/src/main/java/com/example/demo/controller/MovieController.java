@@ -5,10 +5,7 @@ import com.example.demo.service.TheatreService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -22,12 +19,28 @@ public class MovieController {
             = LoggerFactory.getLogger(MovieController.class);
 
 
+    @RequestMapping(value="/theatre/{city}/{movie_name}/{date}", method=RequestMethod.GET)
+    public List<Theatre> getTheatresByMovieNameCityDate(@PathVariable(value = "city") String city,
+                                                        @PathVariable(value = "movie_name") String movie_name,
+                                                         @PathVariable(value = "date") String date)
+    {
+        logger.info("Inside read getTheatresByMovieNameCityDate");
+
+        logger.info("City = " + city);
+        logger.info("movie_name = " + movie_name);
+        logger.info("date = " + date);
+
+        return theatreServiceService.getTheatres();
+    }
+
+
     @RequestMapping(value="/theatre", method=RequestMethod.GET)
     public List<Theatre> readTheatres() {
         logger.info("Inside read Theatres");
 
         return theatreServiceService.getTheatres();
     }
+
 
 
     @RequestMapping(value="/theatre", method= RequestMethod.POST)
