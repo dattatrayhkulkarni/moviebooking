@@ -14,13 +14,24 @@ import java.util.List;
 public interface TheatreRepository extends JpaRepository<Theatre, Integer> {
 
     @Query(
-            value = "SELECT b.booking_id, b.user_id, b.current_movie_id, b.total_seats, b.total_amount, " +
+            value = "select t.theatre_id, t.theatre_name, t.address, t.city, " +
+                    "m.current_movie_id, m.show_timing, m.current_movie_name " +
+                    "from theatre t join current_movies m on t.theatre_id = m.theatre_id " +
+                    "where t.city=:city and m.current_movie_name = :movieName and start_date <= :movieDate and " +
+                    "end_date >= :movieDate ",
+            nativeQuery = true)
+    List<Theatre> findTheatresByCityMovieNameDate(String city, String movieName, LocalDate movieDate);
+}
+
+/*
+
+value = "SELECT b.booking_id, b.user_id, b.current_movie_id, b.total_seats, b.total_amount, " +
                     "sb.booking_seat_id, sb.seat_id " +
                     "FROM booking b join booking_seats sb on b.booking_id = sb.booking_id " +
                     "WHERE b.user_id = :userId",
-            nativeQuery = true)
-    List<Booking> findTheatresByCityMovieNameDate(String city, String movieName, LocalDate movieDate);
-}
+
+ */
+
 
 /*
 select t.theatre_id, t.theatre_name, t.address, t.city,
