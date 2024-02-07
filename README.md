@@ -15,6 +15,11 @@ Payload :
         "current_movie_id":3,
         "total_seats":4,
         "total_amount":800,
+        "theatre_id" : 1,
+        "screen_name" : "Screen 1",
+        "movie_name" : "Bombay",
+        "movie_date" : "2024-02-06",
+        "movie_timing" : "3PM",
         "seats" : 
         [
         {"seat_id" :"d15"},
@@ -41,10 +46,10 @@ Response Body :
 
 `[
 {
-"theatre_id": "Theatre Id",
-"theatre_name": "Theatre Name",
-"address": "Address",
-"city": "City"
+"theatre_id": "1",
+"theatre_name": "City Pride",
+"address": "Kothrud",
+"city": "Pune"
 }
 ]`
 
