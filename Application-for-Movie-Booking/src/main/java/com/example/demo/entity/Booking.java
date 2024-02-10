@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.Entity;
 import jakarta.persistence.*;
 
+import java.time.LocalDate;
 import java.util.List;
 
 
@@ -33,6 +34,23 @@ public class Booking {
     @JsonProperty("total_amount")
     private String totalAmount;
 
+    @Column(name="screen_name", nullable = false)
+    @JsonProperty("screen_name")
+    private String screenName;
+
+    @Column(name="movie_date", nullable = false)
+    @JsonProperty("movie_date")
+    private LocalDate movieDate;
+
+    @Column(name="movie_name", nullable = false)
+    @JsonProperty("movie_name")
+    private String movieName;
+
+
+    @Column(name="movie_timing", nullable = false)
+    @JsonProperty("movie_timing")
+    private String movieTiming;
+
 
 
     @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
@@ -44,7 +62,23 @@ public class Booking {
     public Booking() {
     }
 
-    public Booking(long bookingId, int userId, int currentMovieId, int totalSeats, String totalAmount, List<BookingSeats> bookingSeatsList) {
+    public Booking(long bookingId, int userId, int currentMovieId, int totalSeats, String totalAmount, String screenName,
+                   LocalDate movieDate, String movieName, String movieTiming, List<BookingSeats> bookingSeatsList) {
+        this.bookingId = bookingId;
+        this.userId = userId;
+        this.currentMovieId = currentMovieId;
+        this.totalSeats = totalSeats;
+        this.totalAmount = totalAmount;
+        this.screenName = screenName;
+        this.movieDate = movieDate;
+        this.movieName = movieName;
+        this.movieTiming = movieTiming;
+        this.bookingSeatsList = bookingSeatsList;
+    }
+
+    /*
+    public Booking(long bookingId, int userId, int currentMovieId, int totalSeats, String totalAmount,
+                   List<BookingSeats> bookingSeatsList) {
         this.bookingId = bookingId;
         this.userId = userId;
         this.currentMovieId = currentMovieId;
@@ -52,6 +86,10 @@ public class Booking {
         this.totalAmount = totalAmount;
         this.bookingSeatsList = bookingSeatsList;
     }
+
+     */
+
+
 
 
     public Long getBookingId() {
@@ -76,6 +114,10 @@ public class Booking {
 
     public void setBookingId(Long bookingId) {
         this.bookingId = bookingId;
+    }
+
+    public LocalDate getMovieDate() {
+        return movieDate;
     }
 
     /*

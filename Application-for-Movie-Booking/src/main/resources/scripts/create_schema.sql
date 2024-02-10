@@ -54,6 +54,10 @@ CREATE TABLE `booking` (
   `current_movie_id`  int,
   `total_seats` int,
   `total_amount` int,
+  `screen_name` varchar(50),
+  `movie_name` varchar(100),
+  `movie_date` date,
+  `movie_timing` varchar(50),
   PRIMARY KEY(booking_id)
 );
 
