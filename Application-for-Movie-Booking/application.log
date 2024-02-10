@@ -1154,3 +1154,563 @@ java.lang.NullPointerException: Cannot invoke "java.util.List.add(Object)" becau
 2024-02-10T18:04:23.848+05:30  INFO 31126 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-02-10T18:04:23.851+05:30  INFO 31126 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2024-02-10T18:04:23.856+05:30  INFO 31126 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-10T18:05:59.554+05:30  INFO 31277 --- [main] plicationForMovieBookingApplicationTests : Starting ApplicationForMovieBookingApplicationTests using Java 21.0.1 with PID 31277 (started by dkulkarni in /Users/dkulkarni/training/java/moviebooking/moviebooking/Application-for-Movie-Booking)
+2024-02-10T18:05:59.555+05:30  INFO 31277 --- [main] plicationForMovieBookingApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-02-10T18:05:59.832+05:30  INFO 31277 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-10T18:05:59.860+05:30  INFO 31277 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 3 JPA repository interfaces.
+2024-02-10T18:06:00.075+05:30  INFO 31277 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-10T18:06:00.271+05:30  INFO 31277 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4525e9e8
+2024-02-10T18:06:00.273+05:30  INFO 31277 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-10T18:06:00.299+05:30  INFO 31277 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-10T18:06:00.319+05:30  INFO 31277 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-10T18:06:00.331+05:30  INFO 31277 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-10T18:06:00.424+05:30  INFO 31277 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-10T18:06:00.847+05:30  INFO 31277 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-10T18:06:00.848+05:30  INFO 31277 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-10T18:06:00.970+05:30  INFO 31277 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-10T18:06:01.097+05:30  WARN 31277 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-10T18:06:01.270+05:30  INFO 31277 --- [main] plicationForMovieBookingApplicationTests : Started ApplicationForMovieBookingApplicationTests in 1.843 seconds (process running for 2.261)
+2024-02-10T18:06:01.607+05:30  INFO 31277 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-10T18:06:01.608+05:30  INFO 31277 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-10T18:06:01.612+05:30  INFO 31277 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-10T18:06:09.882+05:30  INFO 31281 --- [main] .d.ApplicationForMovieBookingApplication : Starting ApplicationForMovieBookingApplication v0.0.1-SNAPSHOT using Java 21.0.1 with PID 31281 (/Users/dkulkarni/training/java/moviebooking/moviebooking/Application-for-Movie-Booking/target/Application-for-Movie-Booking-0.0.1-SNAPSHOT.jar started by dkulkarni in /Users/dkulkarni/training/java/moviebooking/moviebooking/Application-for-Movie-Booking)
+2024-02-10T18:06:09.885+05:30  INFO 31281 --- [main] .d.ApplicationForMovieBookingApplication : No active profile set, falling back to 1 default profile: "default"
+2024-02-10T18:06:10.266+05:30  INFO 31281 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-10T18:06:10.302+05:30  INFO 31281 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 3 JPA repository interfaces.
+2024-02-10T18:06:10.601+05:30  INFO 31281 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-10T18:06:10.609+05:30  INFO 31281 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-10T18:06:10.609+05:30  INFO 31281 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-10T18:06:10.626+05:30  INFO 31281 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-10T18:06:10.626+05:30  INFO 31281 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 689 ms
+2024-02-10T18:06:10.708+05:30  INFO 31281 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-10T18:06:10.947+05:30  INFO 31281 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@357bc488
+2024-02-10T18:06:10.948+05:30  INFO 31281 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-10T18:06:10.972+05:30  INFO 31281 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-10T18:06:10.999+05:30  INFO 31281 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-10T18:06:11.015+05:30  INFO 31281 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-10T18:06:11.128+05:30  INFO 31281 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-10T18:06:11.604+05:30  INFO 31281 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-10T18:06:11.605+05:30  INFO 31281 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-10T18:06:11.785+05:30  INFO 31281 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-10T18:06:11.838+05:30  WARN 31281 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-10T18:06:12.028+05:30  INFO 31281 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-10T18:06:12.038+05:30  INFO 31281 --- [main] .d.ApplicationForMovieBookingApplication : Started ApplicationForMovieBookingApplication in 2.442 seconds (process running for 2.754)
+2024-02-10T18:06:18.896+05:30  INFO 31281 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-10T18:06:18.897+05:30  INFO 31281 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-10T18:06:18.898+05:30  INFO 31281 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-10T18:06:18.963+05:30  INFO 31281 --- [http-nio-8080-exec-1] c.e.demo.controller.MovieController      : Inside createBooking
+2024-02-10T18:06:18.964+05:30  INFO 31281 --- [http-nio-8080-exec-1] c.e.demo.controller.MovieController      : Booking details = com.example.demo.entity.Booking@1044986f
+2024-02-10T18:06:18.965+05:30 ERROR 31281 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "this.bookingSeatsList" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "this.bookingSeatsList" is null
+	at com.example.demo.entity.Booking.getBookingSeatsList(Booking.java:128) ~[!/:0.0.1-SNAPSHOT]
+	at com.example.demo.service.BookingService.createBooking(BookingService.java:41) ~[!/:0.0.1-SNAPSHOT]
+	at com.example.demo.controller.BookingController.createBooking(BookingController.java:61) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:261) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:189) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-02-10T18:06:23.614+05:30  INFO 31281 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-10T18:06:23.616+05:30  INFO 31281 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-10T18:06:23.621+05:30  INFO 31281 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-10T18:07:00.720+05:30  INFO 31324 --- [main] plicationForMovieBookingApplicationTests : Starting ApplicationForMovieBookingApplicationTests using Java 21.0.1 with PID 31324 (started by dkulkarni in /Users/dkulkarni/training/java/moviebooking/moviebooking/Application-for-Movie-Booking)
+2024-02-10T18:07:00.720+05:30  INFO 31324 --- [main] plicationForMovieBookingApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-02-10T18:07:00.997+05:30  INFO 31324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-10T18:07:01.023+05:30  INFO 31324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 3 JPA repository interfaces.
+2024-02-10T18:07:01.241+05:30  INFO 31324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-10T18:07:01.439+05:30  INFO 31324 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4525e9e8
+2024-02-10T18:07:01.440+05:30  INFO 31324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-10T18:07:01.467+05:30  INFO 31324 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-10T18:07:01.488+05:30  INFO 31324 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-10T18:07:01.501+05:30  INFO 31324 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-10T18:07:01.596+05:30  INFO 31324 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-10T18:07:02.036+05:30  INFO 31324 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-10T18:07:02.037+05:30  INFO 31324 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-10T18:07:02.156+05:30  INFO 31324 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-10T18:07:02.280+05:30  WARN 31324 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-10T18:07:02.454+05:30  INFO 31324 --- [main] plicationForMovieBookingApplicationTests : Started ApplicationForMovieBookingApplicationTests in 1.866 seconds (process running for 2.28)
+2024-02-10T18:07:02.794+05:30  INFO 31324 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-10T18:07:02.795+05:30  INFO 31324 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-10T18:07:02.800+05:30  INFO 31324 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-10T18:07:09.790+05:30  INFO 31332 --- [main] .d.ApplicationForMovieBookingApplication : Starting ApplicationForMovieBookingApplication v0.0.1-SNAPSHOT using Java 21.0.1 with PID 31332 (/Users/dkulkarni/training/java/moviebooking/moviebooking/Application-for-Movie-Booking/target/Application-for-Movie-Booking-0.0.1-SNAPSHOT.jar started by dkulkarni in /Users/dkulkarni/training/java/moviebooking/moviebooking/Application-for-Movie-Booking)
+2024-02-10T18:07:09.791+05:30  INFO 31332 --- [main] .d.ApplicationForMovieBookingApplication : No active profile set, falling back to 1 default profile: "default"
+2024-02-10T18:07:10.179+05:30  INFO 31332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-10T18:07:10.218+05:30  INFO 31332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 3 JPA repository interfaces.
+2024-02-10T18:07:10.505+05:30  INFO 31332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-10T18:07:10.513+05:30  INFO 31332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-10T18:07:10.513+05:30  INFO 31332 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-10T18:07:10.532+05:30  INFO 31332 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-10T18:07:10.532+05:30  INFO 31332 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 694 ms
+2024-02-10T18:07:10.613+05:30  INFO 31332 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-10T18:07:10.839+05:30  INFO 31332 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6367a688
+2024-02-10T18:07:10.840+05:30  INFO 31332 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-10T18:07:10.863+05:30  INFO 31332 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-10T18:07:10.889+05:30  INFO 31332 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-10T18:07:10.904+05:30  INFO 31332 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-10T18:07:11.013+05:30  INFO 31332 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-10T18:07:11.489+05:30  INFO 31332 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-10T18:07:11.490+05:30  INFO 31332 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-10T18:07:11.682+05:30  INFO 31332 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-10T18:07:11.735+05:30  WARN 31332 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-10T18:07:11.922+05:30  INFO 31332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-10T18:07:11.932+05:30  INFO 31332 --- [main] .d.ApplicationForMovieBookingApplication : Started ApplicationForMovieBookingApplication in 2.423 seconds (process running for 2.706)
+2024-02-10T18:07:15.278+05:30  INFO 31332 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-10T18:07:15.278+05:30  INFO 31332 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-10T18:07:15.279+05:30  INFO 31332 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-10T18:07:15.347+05:30  INFO 31332 --- [http-nio-8080-exec-2] c.e.demo.controller.MovieController      : Inside createBooking
+2024-02-10T18:07:15.347+05:30  INFO 31332 --- [http-nio-8080-exec-2] c.e.demo.controller.MovieController      : Booking details = com.example.demo.entity.Booking@1ba7d1f5
+2024-02-10T18:07:15.349+05:30 ERROR 31332 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "this.bookingSeatsList" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "this.bookingSeatsList" is null
+	at com.example.demo.entity.Booking.getBookingSeatsList(Booking.java:128) ~[!/:0.0.1-SNAPSHOT]
+	at com.example.demo.controller.BookingController.createBooking(BookingController.java:44) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:261) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:189) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-02-10T18:07:22.804+05:30  INFO 31332 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-10T18:07:22.806+05:30  INFO 31332 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-10T18:07:22.814+05:30  INFO 31332 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-10T18:07:36.176+05:30  INFO 31353 --- [main] plicationForMovieBookingApplicationTests : Starting ApplicationForMovieBookingApplicationTests using Java 21.0.1 with PID 31353 (started by dkulkarni in /Users/dkulkarni/training/java/moviebooking/moviebooking/Application-for-Movie-Booking)
+2024-02-10T18:07:36.177+05:30  INFO 31353 --- [main] plicationForMovieBookingApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-02-10T18:07:36.458+05:30  INFO 31353 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-10T18:07:36.484+05:30  INFO 31353 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 3 JPA repository interfaces.
+2024-02-10T18:07:36.700+05:30  INFO 31353 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-10T18:07:36.899+05:30  INFO 31353 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f3fc42f
+2024-02-10T18:07:36.901+05:30  INFO 31353 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-10T18:07:36.927+05:30  INFO 31353 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-10T18:07:36.948+05:30  INFO 31353 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-10T18:07:36.960+05:30  INFO 31353 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-10T18:07:37.056+05:30  INFO 31353 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-10T18:07:37.498+05:30  INFO 31353 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-10T18:07:37.500+05:30  INFO 31353 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-10T18:07:37.623+05:30  INFO 31353 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-10T18:07:37.745+05:30  WARN 31353 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-10T18:07:37.920+05:30  INFO 31353 --- [main] plicationForMovieBookingApplicationTests : Started ApplicationForMovieBookingApplicationTests in 1.874 seconds (process running for 2.292)
+2024-02-10T18:07:38.265+05:30  INFO 31353 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-10T18:07:38.266+05:30  INFO 31353 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-10T18:07:38.271+05:30  INFO 31353 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-10T18:07:43.093+05:30  INFO 31364 --- [main] .d.ApplicationForMovieBookingApplication : Starting ApplicationForMovieBookingApplication v0.0.1-SNAPSHOT using Java 21.0.1 with PID 31364 (/Users/dkulkarni/training/java/moviebooking/moviebooking/Application-for-Movie-Booking/target/Application-for-Movie-Booking-0.0.1-SNAPSHOT.jar started by dkulkarni in /Users/dkulkarni/training/java/moviebooking/moviebooking/Application-for-Movie-Booking)
+2024-02-10T18:07:43.095+05:30  INFO 31364 --- [main] .d.ApplicationForMovieBookingApplication : No active profile set, falling back to 1 default profile: "default"
+2024-02-10T18:07:43.471+05:30  INFO 31364 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-10T18:07:43.507+05:30  INFO 31364 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 3 JPA repository interfaces.
+2024-02-10T18:07:43.796+05:30  INFO 31364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-10T18:07:43.804+05:30  INFO 31364 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-10T18:07:43.804+05:30  INFO 31364 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-10T18:07:43.823+05:30  INFO 31364 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-10T18:07:43.823+05:30  INFO 31364 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 685 ms
+2024-02-10T18:07:43.899+05:30  INFO 31364 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-10T18:07:44.134+05:30  INFO 31364 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77b3752b
+2024-02-10T18:07:44.135+05:30  INFO 31364 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-10T18:07:44.158+05:30  INFO 31364 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-10T18:07:44.181+05:30  INFO 31364 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-10T18:07:44.197+05:30  INFO 31364 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-10T18:07:44.302+05:30  INFO 31364 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-10T18:07:44.774+05:30  INFO 31364 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-10T18:07:44.775+05:30  INFO 31364 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-10T18:07:44.949+05:30  INFO 31364 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-10T18:07:45.002+05:30  WARN 31364 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-10T18:07:45.206+05:30  INFO 31364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-10T18:07:45.217+05:30  INFO 31364 --- [main] .d.ApplicationForMovieBookingApplication : Started ApplicationForMovieBookingApplication in 2.411 seconds (process running for 2.695)
+2024-02-10T18:07:50.460+05:30  INFO 31364 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-10T18:07:50.460+05:30  INFO 31364 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-10T18:07:50.461+05:30  INFO 31364 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-10T18:07:50.534+05:30  INFO 31364 --- [http-nio-8080-exec-2] c.e.demo.controller.MovieController      : Inside createBooking
+2024-02-10T18:07:50.535+05:30  INFO 31364 --- [http-nio-8080-exec-2] c.e.demo.controller.MovieController      : Booking details = com.example.demo.entity.Booking@43d3d221
+2024-02-10T18:07:50.536+05:30 ERROR 31364 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "this.bookingSeatsList" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "this.bookingSeatsList" is null
+	at com.example.demo.entity.Booking.getBookingSeatsList(Booking.java:128) ~[!/:0.0.1-SNAPSHOT]
+	at com.example.demo.controller.BookingController.createBooking(BookingController.java:44) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:261) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:189) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-02-10T18:09:04.970+05:30  INFO 31364 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-10T18:09:04.972+05:30  INFO 31364 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-10T18:09:04.977+05:30  INFO 31364 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-10T18:09:10.562+05:30  INFO 31409 --- [main] plicationForMovieBookingApplicationTests : Starting ApplicationForMovieBookingApplicationTests using Java 21.0.1 with PID 31409 (started by dkulkarni in /Users/dkulkarni/training/java/moviebooking/moviebooking/Application-for-Movie-Booking)
+2024-02-10T18:09:10.563+05:30  INFO 31409 --- [main] plicationForMovieBookingApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-02-10T18:09:10.842+05:30  INFO 31409 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-10T18:09:10.867+05:30  INFO 31409 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 3 JPA repository interfaces.
+2024-02-10T18:09:11.085+05:30  INFO 31409 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-10T18:09:11.286+05:30  INFO 31409 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4525e9e8
+2024-02-10T18:09:11.288+05:30  INFO 31409 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-10T18:09:11.315+05:30  INFO 31409 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-10T18:09:11.336+05:30  INFO 31409 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-10T18:09:11.349+05:30  INFO 31409 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-10T18:09:11.448+05:30  INFO 31409 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-10T18:09:11.893+05:30  INFO 31409 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-10T18:09:11.894+05:30  INFO 31409 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-10T18:09:12.014+05:30  INFO 31409 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-10T18:09:12.140+05:30  WARN 31409 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-10T18:09:12.314+05:30  INFO 31409 --- [main] plicationForMovieBookingApplicationTests : Started ApplicationForMovieBookingApplicationTests in 1.888 seconds (process running for 2.314)
+2024-02-10T18:09:12.657+05:30  INFO 31409 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-10T18:09:12.658+05:30  INFO 31409 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-10T18:09:12.662+05:30  INFO 31409 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-10T18:09:15.013+05:30  INFO 31425 --- [main] .d.ApplicationForMovieBookingApplication : Starting ApplicationForMovieBookingApplication v0.0.1-SNAPSHOT using Java 21.0.1 with PID 31425 (/Users/dkulkarni/training/java/moviebooking/moviebooking/Application-for-Movie-Booking/target/Application-for-Movie-Booking-0.0.1-SNAPSHOT.jar started by dkulkarni in /Users/dkulkarni/training/java/moviebooking/moviebooking/Application-for-Movie-Booking)
+2024-02-10T18:09:15.015+05:30  INFO 31425 --- [main] .d.ApplicationForMovieBookingApplication : No active profile set, falling back to 1 default profile: "default"
+2024-02-10T18:09:15.396+05:30  INFO 31425 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-10T18:09:15.437+05:30  INFO 31425 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 3 JPA repository interfaces.
+2024-02-10T18:09:15.731+05:30  INFO 31425 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-10T18:09:15.739+05:30  INFO 31425 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-10T18:09:15.739+05:30  INFO 31425 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-10T18:09:15.758+05:30  INFO 31425 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-10T18:09:15.758+05:30  INFO 31425 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 695 ms
+2024-02-10T18:09:15.840+05:30  INFO 31425 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-10T18:09:16.079+05:30  INFO 31425 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@357bc488
+2024-02-10T18:09:16.080+05:30  INFO 31425 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-10T18:09:16.105+05:30  INFO 31425 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-10T18:09:16.129+05:30  INFO 31425 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-10T18:09:16.145+05:30  INFO 31425 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-10T18:09:16.254+05:30  INFO 31425 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-10T18:09:16.736+05:30  INFO 31425 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-10T18:09:16.737+05:30  INFO 31425 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-10T18:09:16.911+05:30  INFO 31425 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-10T18:09:16.964+05:30  WARN 31425 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-10T18:09:17.155+05:30  INFO 31425 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-10T18:09:17.165+05:30  INFO 31425 --- [main] .d.ApplicationForMovieBookingApplication : Started ApplicationForMovieBookingApplication in 2.43 seconds (process running for 2.712)
+2024-02-10T18:09:21.578+05:30  INFO 31425 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-10T18:09:21.578+05:30  INFO 31425 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-10T18:09:21.579+05:30  INFO 31425 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-10T18:09:21.648+05:30  INFO 31425 --- [http-nio-8080-exec-2] c.e.demo.controller.MovieController      : Inside createBooking
+2024-02-10T18:09:21.648+05:30  INFO 31425 --- [http-nio-8080-exec-2] c.e.demo.controller.MovieController      : Booking details = com.example.demo.entity.Booking@5bd4e89a
+2024-02-10T18:09:21.649+05:30 ERROR 31425 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "this.bookingSeatsList" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "this.bookingSeatsList" is null
+	at com.example.demo.entity.Booking.getBookingSeatsList(Booking.java:128) ~[!/:0.0.1-SNAPSHOT]
+	at com.example.demo.controller.BookingController.createBooking(BookingController.java:52) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:261) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:189) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.3.jar!/:6.1.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.3.jar!/:6.1.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.18.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-02-10T18:10:51.138+05:30  INFO 31425 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-10T18:10:51.140+05:30  INFO 31425 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-10T18:10:51.145+05:30  INFO 31425 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-10T18:11:15.653+05:30  INFO 31484 --- [main] plicationForMovieBookingApplicationTests : Starting ApplicationForMovieBookingApplicationTests using Java 21.0.1 with PID 31484 (started by dkulkarni in /Users/dkulkarni/training/java/moviebooking/moviebooking/Application-for-Movie-Booking)
+2024-02-10T18:11:15.654+05:30  INFO 31484 --- [main] plicationForMovieBookingApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-02-10T18:11:15.936+05:30  INFO 31484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-10T18:11:15.965+05:30  INFO 31484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 3 JPA repository interfaces.
+2024-02-10T18:11:16.178+05:30  INFO 31484 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-10T18:11:16.386+05:30  INFO 31484 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4525e9e8
+2024-02-10T18:11:16.388+05:30  INFO 31484 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-10T18:11:16.415+05:30  INFO 31484 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-10T18:11:16.435+05:30  INFO 31484 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-10T18:11:16.448+05:30  INFO 31484 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-10T18:11:16.547+05:30  INFO 31484 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-10T18:11:17.009+05:30  INFO 31484 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-10T18:11:17.010+05:30  INFO 31484 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-10T18:11:17.132+05:30  INFO 31484 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-10T18:11:17.263+05:30  WARN 31484 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-10T18:11:17.435+05:30  INFO 31484 --- [main] plicationForMovieBookingApplicationTests : Started ApplicationForMovieBookingApplicationTests in 1.917 seconds (process running for 2.349)
+2024-02-10T18:11:17.770+05:30  INFO 31484 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-10T18:11:17.771+05:30  INFO 31484 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-10T18:11:17.776+05:30  INFO 31484 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-10T18:11:20.616+05:30  INFO 31498 --- [main] .d.ApplicationForMovieBookingApplication : Starting ApplicationForMovieBookingApplication v0.0.1-SNAPSHOT using Java 21.0.1 with PID 31498 (/Users/dkulkarni/training/java/moviebooking/moviebooking/Application-for-Movie-Booking/target/Application-for-Movie-Booking-0.0.1-SNAPSHOT.jar started by dkulkarni in /Users/dkulkarni/training/java/moviebooking/moviebooking/Application-for-Movie-Booking)
+2024-02-10T18:11:20.617+05:30  INFO 31498 --- [main] .d.ApplicationForMovieBookingApplication : No active profile set, falling back to 1 default profile: "default"
+2024-02-10T18:11:21.002+05:30  INFO 31498 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-10T18:11:21.039+05:30  INFO 31498 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 3 JPA repository interfaces.
+2024-02-10T18:11:21.322+05:30  INFO 31498 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-10T18:11:21.329+05:30  INFO 31498 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-10T18:11:21.329+05:30  INFO 31498 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-10T18:11:21.347+05:30  INFO 31498 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-10T18:11:21.347+05:30  INFO 31498 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 682 ms
+2024-02-10T18:11:21.419+05:30  INFO 31498 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-10T18:11:21.653+05:30  INFO 31498 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@357bc488
+2024-02-10T18:11:21.654+05:30  INFO 31498 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-10T18:11:21.677+05:30  INFO 31498 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-10T18:11:21.701+05:30  INFO 31498 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-10T18:11:21.716+05:30  INFO 31498 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-10T18:11:21.826+05:30  INFO 31498 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-10T18:11:22.300+05:30  INFO 31498 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-10T18:11:22.301+05:30  INFO 31498 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-10T18:11:22.484+05:30  INFO 31498 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-10T18:11:22.532+05:30  WARN 31498 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-10T18:11:22.723+05:30  INFO 31498 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-10T18:11:22.733+05:30  INFO 31498 --- [main] .d.ApplicationForMovieBookingApplication : Started ApplicationForMovieBookingApplication in 2.41 seconds (process running for 2.694)
+2024-02-10T18:11:25.803+05:30  INFO 31498 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-10T18:11:25.803+05:30  INFO 31498 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-10T18:11:25.804+05:30  INFO 31498 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-10T18:11:25.870+05:30  INFO 31498 --- [http-nio-8080-exec-2] c.e.demo.controller.MovieController      : Inside createBooking
+2024-02-10T18:11:25.870+05:30  INFO 31498 --- [http-nio-8080-exec-2] c.e.demo.controller.MovieController      : Booking details = com.example.demo.entity.Booking@24f2bd33
+2024-02-10T18:11:25.870+05:30  WARN 31498 --- [http-nio-8080-exec-2] c.e.demo.controller.MovieController      : Invalid Booking request
+2024-02-10T18:11:33.122+05:30  INFO 31498 --- [http-nio-8080-exec-4] c.e.demo.controller.MovieController      : Inside createBooking
+2024-02-10T18:11:33.122+05:30  INFO 31498 --- [http-nio-8080-exec-4] c.e.demo.controller.MovieController      : Booking details = com.example.demo.entity.Booking@40a0fd20
+2024-02-10T18:11:33.123+05:30  INFO 31498 --- [http-nio-8080-exec-4] c.e.demo.controller.MovieController      : ----  No of seats = 4
+2024-02-10T18:11:33.194+05:30  WARN 31498 --- [http-nio-8080-exec-4] c.e.demo.controller.MovieController      : Some of the seats are not available
+2024-02-10T18:11:39.570+05:30  INFO 31498 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-10T18:11:39.572+05:30  INFO 31498 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-10T18:11:39.577+05:30  INFO 31498 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-10T18:11:47.874+05:30  INFO 31507 --- [main] .d.ApplicationForMovieBookingApplication : Starting ApplicationForMovieBookingApplication v0.0.1-SNAPSHOT using Java 21.0.1 with PID 31507 (/Users/dkulkarni/training/java/moviebooking/moviebooking/Application-for-Movie-Booking/target/Application-for-Movie-Booking-0.0.1-SNAPSHOT.jar started by dkulkarni in /Users/dkulkarni/training/java/moviebooking/moviebooking/Application-for-Movie-Booking)
+2024-02-10T18:11:47.875+05:30  INFO 31507 --- [main] .d.ApplicationForMovieBookingApplication : No active profile set, falling back to 1 default profile: "default"
+2024-02-10T18:11:48.276+05:30  INFO 31507 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-10T18:11:48.311+05:30  INFO 31507 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 3 JPA repository interfaces.
+2024-02-10T18:11:48.634+05:30  INFO 31507 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-10T18:11:48.640+05:30  INFO 31507 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-10T18:11:48.641+05:30  INFO 31507 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-10T18:11:48.658+05:30  INFO 31507 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-10T18:11:48.658+05:30  INFO 31507 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 730 ms
+2024-02-10T18:11:48.730+05:30  INFO 31507 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-10T18:11:48.967+05:30  INFO 31507 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77b3752b
+2024-02-10T18:11:48.970+05:30  INFO 31507 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-10T18:11:48.991+05:30  INFO 31507 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-10T18:11:49.016+05:30  INFO 31507 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-10T18:11:49.032+05:30  INFO 31507 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-10T18:11:49.143+05:30  INFO 31507 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-10T18:11:49.614+05:30  INFO 31507 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-10T18:11:49.615+05:30  INFO 31507 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-10T18:11:49.794+05:30  INFO 31507 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-10T18:11:49.847+05:30  WARN 31507 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-10T18:11:50.042+05:30  INFO 31507 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-10T18:11:50.052+05:30  INFO 31507 --- [main] .d.ApplicationForMovieBookingApplication : Started ApplicationForMovieBookingApplication in 2.485 seconds (process running for 2.771)
+2024-02-10T18:11:55.171+05:30  INFO 31507 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-10T18:11:55.171+05:30  INFO 31507 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-10T18:11:55.172+05:30  INFO 31507 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-10T18:11:55.238+05:30  INFO 31507 --- [http-nio-8080-exec-2] c.e.demo.controller.MovieController      : Inside createBooking
+2024-02-10T18:11:55.238+05:30  INFO 31507 --- [http-nio-8080-exec-2] c.e.demo.controller.MovieController      : Booking details = com.example.demo.entity.Booking@57da02ab
+2024-02-10T18:11:55.239+05:30  INFO 31507 --- [http-nio-8080-exec-2] c.e.demo.controller.MovieController      : ----  No of seats = 0
+2024-02-10T18:11:55.282+05:30  INFO 31507 --- [http-nio-8080-exec-2] c.e.demo.controller.MovieController      : Seats are available
+2024-02-10T18:12:00.223+05:30  INFO 31507 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-10T18:12:00.225+05:30  INFO 31507 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-10T18:12:00.229+05:30  INFO 31507 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-10T18:12:42.198+05:30  INFO 31534 --- [main] plicationForMovieBookingApplicationTests : Starting ApplicationForMovieBookingApplicationTests using Java 21.0.1 with PID 31534 (started by dkulkarni in /Users/dkulkarni/training/java/moviebooking/moviebooking/Application-for-Movie-Booking)
+2024-02-10T18:12:42.199+05:30  INFO 31534 --- [main] plicationForMovieBookingApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-02-10T18:12:42.478+05:30  INFO 31534 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-10T18:12:42.505+05:30  INFO 31534 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 3 JPA repository interfaces.
+2024-02-10T18:12:42.728+05:30  INFO 31534 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-10T18:12:42.934+05:30  INFO 31534 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f820f42
+2024-02-10T18:12:42.936+05:30  INFO 31534 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-10T18:12:42.964+05:30  INFO 31534 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-10T18:12:42.984+05:30  INFO 31534 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-10T18:12:42.998+05:30  INFO 31534 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-10T18:12:43.098+05:30  INFO 31534 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-10T18:12:43.557+05:30  INFO 31534 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-10T18:12:43.559+05:30  INFO 31534 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-10T18:12:43.683+05:30  INFO 31534 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-10T18:12:43.808+05:30  WARN 31534 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-10T18:12:43.990+05:30  INFO 31534 --- [main] plicationForMovieBookingApplicationTests : Started ApplicationForMovieBookingApplicationTests in 1.928 seconds (process running for 2.359)
+2024-02-10T18:12:44.330+05:30  INFO 31534 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-10T18:12:44.331+05:30  INFO 31534 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-10T18:12:44.336+05:30  INFO 31534 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-10T18:12:46.854+05:30  INFO 31546 --- [main] .d.ApplicationForMovieBookingApplication : Starting ApplicationForMovieBookingApplication v0.0.1-SNAPSHOT using Java 21.0.1 with PID 31546 (/Users/dkulkarni/training/java/moviebooking/moviebooking/Application-for-Movie-Booking/target/Application-for-Movie-Booking-0.0.1-SNAPSHOT.jar started by dkulkarni in /Users/dkulkarni/training/java/moviebooking/moviebooking/Application-for-Movie-Booking)
+2024-02-10T18:12:46.855+05:30  INFO 31546 --- [main] .d.ApplicationForMovieBookingApplication : No active profile set, falling back to 1 default profile: "default"
+2024-02-10T18:12:47.295+05:30  INFO 31546 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-10T18:12:47.334+05:30  INFO 31546 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 3 JPA repository interfaces.
+2024-02-10T18:12:47.636+05:30  INFO 31546 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-10T18:12:47.644+05:30  INFO 31546 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-10T18:12:47.644+05:30  INFO 31546 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-10T18:12:47.664+05:30  INFO 31546 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-10T18:12:47.665+05:30  INFO 31546 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 757 ms
+2024-02-10T18:12:47.749+05:30  INFO 31546 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-10T18:12:47.981+05:30  INFO 31546 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77b3752b
+2024-02-10T18:12:47.982+05:30  INFO 31546 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-10T18:12:48.006+05:30  INFO 31546 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-10T18:12:48.032+05:30  INFO 31546 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-10T18:12:48.048+05:30  INFO 31546 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-10T18:12:48.160+05:30  INFO 31546 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-10T18:12:48.662+05:30  INFO 31546 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-10T18:12:48.663+05:30  INFO 31546 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-10T18:12:48.844+05:30  INFO 31546 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-10T18:12:48.901+05:30  WARN 31546 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-10T18:12:49.096+05:30  INFO 31546 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-10T18:12:49.104+05:30  INFO 31546 --- [main] .d.ApplicationForMovieBookingApplication : Started ApplicationForMovieBookingApplication in 2.549 seconds (process running for 2.839)
+2024-02-10T18:12:55.355+05:30  INFO 31546 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-10T18:12:55.355+05:30  INFO 31546 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-10T18:12:55.356+05:30  INFO 31546 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-10T18:12:55.427+05:30  INFO 31546 --- [http-nio-8080-exec-1] c.e.demo.controller.MovieController      : Inside createBooking
+2024-02-10T18:12:55.427+05:30  INFO 31546 --- [http-nio-8080-exec-1] c.e.demo.controller.MovieController      : Booking details = com.example.demo.entity.Booking@11a66ddd
+2024-02-10T18:12:55.427+05:30  WARN 31546 --- [http-nio-8080-exec-1] c.e.demo.controller.MovieController      : No seats specified in the request
+2024-02-10T18:13:01.066+05:30  INFO 31546 --- [http-nio-8080-exec-4] c.e.demo.controller.MovieController      : Inside createBooking
+2024-02-10T18:13:01.066+05:30  INFO 31546 --- [http-nio-8080-exec-4] c.e.demo.controller.MovieController      : Booking details = com.example.demo.entity.Booking@133e0c
+2024-02-10T18:13:01.067+05:30  INFO 31546 --- [http-nio-8080-exec-4] c.e.demo.controller.MovieController      : ----  No of seats = 4
+2024-02-10T18:13:01.132+05:30  WARN 31546 --- [http-nio-8080-exec-4] c.e.demo.controller.MovieController      : Some of the seats are not available
+2024-02-10T18:13:09.863+05:30  INFO 31546 --- [http-nio-8080-exec-6] c.e.demo.controller.MovieController      : Inside createBooking
+2024-02-10T18:13:09.863+05:30  INFO 31546 --- [http-nio-8080-exec-6] c.e.demo.controller.MovieController      : Booking details = com.example.demo.entity.Booking@4ded6820
+2024-02-10T18:13:09.863+05:30  WARN 31546 --- [http-nio-8080-exec-6] c.e.demo.controller.MovieController      : No seats specified in the request
+2024-02-10T18:13:25.077+05:30  INFO 31546 --- [http-nio-8080-exec-7] c.e.demo.controller.MovieController      : Inside createBooking
+2024-02-10T18:13:25.077+05:30  INFO 31546 --- [http-nio-8080-exec-7] c.e.demo.controller.MovieController      : Booking details = com.example.demo.entity.Booking@1b5576c
+2024-02-10T18:13:25.077+05:30  INFO 31546 --- [http-nio-8080-exec-7] c.e.demo.controller.MovieController      : ----  No of seats = 4
+2024-02-10T18:13:25.088+05:30  INFO 31546 --- [http-nio-8080-exec-7] c.e.demo.controller.MovieController      : Seats are available
+2024-02-10T18:13:32.422+05:30  INFO 31546 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-10T18:13:32.425+05:30  INFO 31546 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-10T18:13:32.431+05:30  INFO 31546 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

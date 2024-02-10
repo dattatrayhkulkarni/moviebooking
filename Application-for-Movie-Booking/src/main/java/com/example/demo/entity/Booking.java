@@ -123,7 +123,9 @@ public class Booking {
     public List<String> getBookingSeatsList() {
         List<String> seatList = new ArrayList<>();
 
-
+        if (bookingSeatsList == null) {
+            return  null;
+        }
 
         for(BookingSeats bookingSeatEntry : bookingSeatsList ) {
             seatList.add(bookingSeatEntry.getSeatId());

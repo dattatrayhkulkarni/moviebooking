@@ -40,7 +40,7 @@ public class BookingController {
             booking.getTotalSeats() == 0 ||
             booking.getTotalAmount() == 0 ||
             booking.getMovieName() == null ||
-            booking.getScreenName() == null) {
+            booking.getScreenName() == null ) {
 
             logger.warn("Invalid Booking request");
 
@@ -49,14 +49,19 @@ public class BookingController {
 
         }
 
+        if(booking.getBookingSeatsList() == null || booking.getBookingSeatsList().isEmpty()) {
+            logger.warn("No seats specified in the request");
+
+            throw new ResponseStatusException(
+                    HttpStatus.BAD_REQUEST, "No seats specified in the request");
+        }
+
         if(booking.getMovieDate().isBefore(LocalDate.now())) {
             logger.info("Booking date can't be in the past");
 
             throw new ResponseStatusException(
                     HttpStatus.BAD_REQUEST, "Booking date can't be in the past");
         }
-
-
 
         Booking savedBooking = bookingService.createBooking(booking);
 
