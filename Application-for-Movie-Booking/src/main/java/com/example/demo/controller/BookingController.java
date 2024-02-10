@@ -13,6 +13,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -32,6 +33,30 @@ public class BookingController {
 
         logger.info("Inside createBooking");
         logger.info("Booking details = " + booking.toString());
+
+        if(booking.getUserId() == 0 ||
+            booking.getMovieDate() == null ||
+            booking.getCurrentMovieId() == 0 ||
+            booking.getTotalSeats() == 0 ||
+            booking.getTotalAmount() == 0 ||
+            booking.getMovieName() == null ||
+            booking.getScreenName() == null) {
+
+            logger.warn("Invalid Booking request");
+
+            throw new ResponseStatusException(
+                    HttpStatus.BAD_REQUEST, "Invalid Booking Request");
+
+        }
+
+        if(booking.getMovieDate().isBefore(LocalDate.now())) {
+            logger.info("Booking date can't be in the past");
+
+            throw new ResponseStatusException(
+                    HttpStatus.BAD_REQUEST, "Booking date can't be in the past");
+        }
+
+
 
         Booking savedBooking = bookingService.createBooking(booking);
 

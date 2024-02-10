@@ -5,6 +5,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.*;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -32,7 +33,7 @@ public class Booking {
 
     @Column(name="total_amount", nullable = false)
     @JsonProperty("total_amount")
-    private String totalAmount;
+    private Long totalAmount;
 
     @Column(name="screen_name", nullable = false)
     @JsonProperty("screen_name")
@@ -62,7 +63,7 @@ public class Booking {
     public Booking() {
     }
 
-    public Booking(long bookingId, int userId, int currentMovieId, int totalSeats, String totalAmount, String screenName,
+    public Booking(long bookingId, int userId, int currentMovieId, int totalSeats, Long totalAmount, String screenName,
                    LocalDate movieDate, String movieName, String movieTiming, List<BookingSeats> bookingSeatsList) {
         this.bookingId = bookingId;
         this.userId = userId;
@@ -75,20 +76,6 @@ public class Booking {
         this.movieTiming = movieTiming;
         this.bookingSeatsList = bookingSeatsList;
     }
-
-    /*
-    public Booking(long bookingId, int userId, int currentMovieId, int totalSeats, String totalAmount,
-                   List<BookingSeats> bookingSeatsList) {
-        this.bookingId = bookingId;
-        this.userId = userId;
-        this.currentMovieId = currentMovieId;
-        this.totalSeats = totalSeats;
-        this.totalAmount = totalAmount;
-        this.bookingSeatsList = bookingSeatsList;
-    }
-
-     */
-
 
 
 
@@ -108,7 +95,7 @@ public class Booking {
         return totalSeats;
     }
 
-    public String getTotalAmount() {
+    public Long getTotalAmount() {
         return totalAmount;
     }
 
@@ -120,28 +107,31 @@ public class Booking {
         return movieDate;
     }
 
-    /*
-    @Override
-    public String toString() {
-        return "Booking{" +
-                "bookingId=" + bookingId +
-                ", userId=" + userId +
-                ", currentMovieId=" + currentMovieId +
-                ", totalSeats=" + totalSeats +
-                ", totalAmount='" + totalAmount + '\'' +
-               // ", bookingSeatsList=" + bookingSeatsList +
-                '}';
+    public String getMovieName() {
+        return movieName;
+    }
+
+    public String getScreenName() {
+        return screenName;
+    }
+
+    public String getMovieTiming() {
+        return movieTiming;
     }
 
 
-    public List<BookingSeats> getBookingSeatsList() {
-        return bookingSeatsList;
+    public List<String> getBookingSeatsList() {
+        List<String> seatList = new ArrayList<>();
+
+
+
+        for(BookingSeats bookingSeatEntry : bookingSeatsList ) {
+            seatList.add(bookingSeatEntry.getSeatId());
+        }
+        return  seatList;
     }
 
-    public void setBookingSeatsList(List<BookingSeats> bookingSeatsList) {
-        this.bookingSeatsList = bookingSeatsList;
-    }
-    */
+
 }
 
 
